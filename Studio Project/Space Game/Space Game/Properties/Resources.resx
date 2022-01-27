@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Human_Green_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark_Intro_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\dark intro_0.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZombieRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Space_intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\space_intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NinjaFemaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombiedown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_Pollux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\2_pollux.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galaxy_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galaxy+Y1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\fly.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Human_Yellow_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlphaCenturiCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\alpha centuri\alphacenturicombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galaxy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galaxy+Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0_Earth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\0_earth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="through_space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\through space.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Human_Blue_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8bit_bomb_explosion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\8bit_bomb_explosion.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HealerFemaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="technogeek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\technogeek.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NinjaMaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astroid_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\astroid_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="technicko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\technicko.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZombieDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombiedown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PolluxCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\pollux\polluxcombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletondown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alien_Active_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alien_Active_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Single_Ply_Prison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\single ply prison.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NinjaMaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Over_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\game over ii.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZombieLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombiedown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Red_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\red\human_red_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Alpha_Centuri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\1_alpha_centuri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleLeft03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleleft03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_Kepler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\4_kepler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\zombie\zombieleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlphaCenturiLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\alpha centuri\alphacenturilevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_Formalhaut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\3_formalhaut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletondown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerMaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\male\healermaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleRight01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleright01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaledown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleDown03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaledown03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alien_Active_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alien_Active_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galaxy+X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletonup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alien_Inactive_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alien_Inactive_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Green_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\green\human_green_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alien_Inactive_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alien_Inactive_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planetrise_v1_0_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\music and sound\planetrise v1_0_0.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Explosion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerMaleUp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\male\rangermaleup02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galaxy_Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galaxy-Z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleRight03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleright03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerFemaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ranger\female\rangerfemaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Blue_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\blue\human_blue_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\explosions\explosion4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleUp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleup01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaFemaleRight02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\female\ninjafemaleright02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleDown02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaledown02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianFemaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\female\magicianfemaleicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Human_Yellow_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ships\yellow\human_yellow_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonDown01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\enemies\skeleton\skeletondown01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorMaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\male\warriormaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaMaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\ninja\male\ninjamaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicianMaleLeft02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\magician\male\magicianmaleleft02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorFemaleLeft01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\warrior\female\warriorfemaleleft01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealerFemaleUp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\player characters\healer\female\healerfemaleup03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PolluxLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\pollux\polluxlevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormalhautCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\formalhaut\formalhautcombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormalhautLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\formalhaut\formalhautlevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeplerCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\kepler\keplercombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeplerLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\kepler\keplerlevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CetusCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\cetus\cetuscombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CetusLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\cetus\cetuslevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuartzMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QuartzMS.TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_5_Cetus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\5_cetus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_Pyxis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\6_pyxis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CetusWaterCrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\cetus\cetuswatercrack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PyxisLevelMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\pyxis\pyxislevelmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PyxisCombatMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\planets\levelmaps\pyxis\pyxiscombatmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

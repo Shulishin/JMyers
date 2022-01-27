@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B6637FF-FBBE-4035-9807-5B8D343B6AE4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Space_Game</RootNamespace>
+    <AssemblyName>Space Game</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Space_Game.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassDescription.Designer.cs">
+      <DependentUpon>ClassDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet6.Designer.cs">
+      <DependentUpon>Planet6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet5.Designer.cs">
+      <DependentUpon>Planet5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet1.Designer.cs">
+      <DependentUpon>Planet1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet2.Designer.cs">
+      <DependentUpon>Planet2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet3.Designer.cs">
+      <DependentUpon>Planet3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planet4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planet4.Designer.cs">
+      <DependentUpon>Planet4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanetCombat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanetCombat.Designer.cs">
+      <DependentUpon>PlanetCombat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Space1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Space1.Designer.cs">
+      <DependentUpon>Space1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpaceStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpaceStart.Designer.cs">
+      <DependentUpon>SpaceStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatIncreases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatIncreases.Designer.cs">
+      <DependentUpon>StatIncreases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Variables.cs" />
+    <Compile Include="WinScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinScreen.Designer.cs">
+      <DependentUpon>WinScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClassDescription.resx">
+      <DependentUpon>ClassDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet6.resx">
+      <DependentUpon>Planet6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet5.resx">
+      <DependentUpon>Planet5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet1.resx">
+      <DependentUpon>Planet1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet2.resx">
+      <DependentUpon>Planet2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet3.resx">
+      <DependentUpon>Planet3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planet4.resx">
+      <DependentUpon>Planet4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanetCombat.resx">
+      <DependentUpon>PlanetCombat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Space1.resx">
+      <DependentUpon>Space1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpaceStart.resx">
+      <DependentUpon>SpaceStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatIncreases.resx">
+      <DependentUpon>StatIncreases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinScreen.resx">
+      <DependentUpon>WinScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music and Sound\through space.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music and Sound\technogeek.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galaxy+X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alien_Active_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alien_Active_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alien_Inactive_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alien_Inactive_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\QuartzMS.TTF" />
+    <None Include="Resources\Ships\Blue\Human_Blue_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Blue\Human_Blue_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Green\Human_Green_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Green\Human_Green_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Red\Human_Red_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Red\Human_Red_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Yellow\Human_Yellow_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Yellow\Human_Yellow_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planets\0_Earth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planets\1_Alpha_Centuri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planets\2_Pollux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planets\3_Formalhaut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planets\4_Kepler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Blue\Human_Blue_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Blue\Human_Blue_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Blue\Human_Blue_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Green\Human_Green_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Green\Human_Green_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Green\Human_Green_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Red\Human_Red_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Red\Human_Red_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Red\Human_Red_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Yellow\Human_Yellow_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Yellow\Human_Yellow_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ships\Yellow\Human_Yellow_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\Music and Sound\Game Over II.wav" />
+    <None Include="Resources\Planets\LevelMaps\Alpha Centuri\AlphaCenturiLevelMap.png" />
+    <None Include="Resources\CetusWaterCrack.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonDown01.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonDown02.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonDown03.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonLeft01.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonLeft02.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonLeft03.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonRight01.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonRight02.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonRight03.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonUp01.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonUp02.png" />
+    <Content Include="Resources\Enemies\Skeleton\SkeletonUp03.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieDown01.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieDown02.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieDown03.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieLeft01.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieLeft02.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieLeft03.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieRight01.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieRight02.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieRight03.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieUp01.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieUp02.png" />
+    <Content Include="Resources\Enemies\Zombie\ZombieUp03.png" />
+    <Content Include="Resources\Music and Sound\Dark Intro_0.wav" />
+    <Content Include="Resources\Music and Sound\Fly.wav" />
+    <Content Include="Resources\Music and Sound\Planetrise v1_0_0.wav" />
+    <Content Include="Resources\Music and Sound\Single Ply Prison.wav" />
+    <Content Include="Resources\Music and Sound\Space_intro.wav" />
+    <Content Include="Resources\Music and Sound\technicko.wav" />
+    <Content Include="Resources\Planets\5_Cetus.png" />
+    <Content Include="Resources\Planets\6_Pyxis.png" />
+    <Content Include="Resources\Planets\LevelMaps\Cetus\CetusCombatMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Cetus\CetusLevelMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Cetus\CetusWaterCrack.png" />
+    <Content Include="Resources\Planets\LevelMaps\Formalhaut\FormalhautCombatMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Formalhaut\FormalhautLevelMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Kepler\KeplerCombatMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Kepler\KeplerLevelMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Pollux\PolluxCombatMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Pollux\PolluxLevelMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Pyxis\PyxisCombatMap.png" />
+    <Content Include="Resources\Planets\LevelMaps\Pyxis\PyxisLevelMap.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleDown01.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleDown02.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleDown03.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleIcon.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleRight01.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleRight02.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleRight03.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleUp01.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleUp02.png" />
+    <Content Include="Resources\Player Characters\Healer\Female\HealerFemaleUp03.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleDown01.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleDown02.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleDown03.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleIcon.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleRight01.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleRight02.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleRight03.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleUp01.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleUp02.png" />
+    <Content Include="Resources\Player Characters\Healer\Male\HealerMaleUp03.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleDown01.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleDown02.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleDown03.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleIcon.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleRight01.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleRight02.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleRight03.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleUp01.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleUp02.png" />
+    <Content Include="Resources\Player Characters\Magician\Female\MagicianFemaleUp03.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleDown01.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleDown02.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleDown03.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleIcon.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleRight01.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleRight02.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleRight03.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleUp01.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleUp02.png" />
+    <Content Include="Resources\Player Characters\Magician\Male\MagicianMaleUp03.png" />
+    <Content Include="Resources\Player Characters\Ninja\Female\NinjaFemaleIcon.png" />
+    <Content Include="Resources\Player Characters\Ninja\Male\NinjaMaleIcon.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleDown01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleDown02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleDown03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleIcon.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleRight01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleRight02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleRight03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleUp01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleUp02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Female\RangerFemaleUp03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleDown01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleDown02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleDown03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleIcon.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleRight01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleRight02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleRight03.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleUp01.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleUp02.png" />
+    <Content Include="Resources\Player Characters\Ranger\Male\RangerMaleUp03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleDown01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleDown02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleDown03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleIcon.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleRight01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleRight02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleRight03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleUp01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleUp02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Female\WarriorFemaleUp03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleDown01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleDown02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleDown03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleIcon.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleLeft01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleLeft02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleLeft03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleRight01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleRight02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleRight03.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleUp01.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleUp02.png" />
+    <Content Include="Resources\Player Characters\Warrior\Male\WarriorMaleUp03.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleUp03.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleUp02.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleUp01.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleRight03.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleRight02.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleRight01.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleLeft03.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleLeft02.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleLeft01.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleDown03.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleDown02.png" />
+    <None Include="Resources\Player Characters\Ninja\Female\NinjaFemaleDown01.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleUp03.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleUp02.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleUp01.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleRight03.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleRight02.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleRight01.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleLeft03.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleLeft02.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleLeft01.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleDown03.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleDown02.png" />
+    <None Include="Resources\Player Characters\Ninja\Male\NinjaMaleDown01.png" />
+    <None Include="Resources\galaxy+Y1.png" />
+    <None Include="Resources\galaxy-Z1.png" />
+    <None Include="Resources\Explosions\Explosion7.png" />
+    <None Include="Resources\Explosions\Explosion6.png" />
+    <None Include="Resources\Explosions\Explosion5.png" />
+    <None Include="Resources\Explosions\Explosion4.png" />
+    <None Include="Resources\Explosions\Explosion3.png" />
+    <None Include="Resources\Explosions\Explosion2.png" />
+    <None Include="Resources\Explosions\Explosion1.png" />
+    <None Include="Resources\Music and Sound\8bit_bomb_explosion.wav" />
+    <None Include="Resources\Astroid_01.png" />
+    <None Include="Resources\Planets\LevelMaps\Alpha Centuri\AlphaCenturiCombatMap.png" />
+    <None Include="Resources\galaxy+Y.png" />
+    <None Include="Resources\galaxy-Z.png" />
+    <None Include="Resources\Ships\Yellow\Human_Yellow_08.png" />
+    <None Include="Resources\Ships\Yellow\Human_Yellow_07.png" />
+    <None Include="Resources\Ships\Yellow\Human_Yellow_06.png" />
+    <None Include="Resources\Ships\Red\Human_Red_08.png" />
+    <None Include="Resources\Ships\Red\Human_Red_07.png" />
+    <None Include="Resources\Ships\Red\Human_Red_06.png" />
+    <None Include="Resources\Ships\Green\Human_Green_08.png" />
+    <None Include="Resources\Ships\Green\Human_Green_07.png" />
+    <None Include="Resources\Ships\Green\Human_Green_06.png" />
+    <None Include="Resources\Ships\Blue\Human_Blue_08.png" />
+    <None Include="Resources\Ships\Blue\Human_Blue_07.png" />
+    <None Include="Resources\Ships\Blue\Human_Blue_06.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

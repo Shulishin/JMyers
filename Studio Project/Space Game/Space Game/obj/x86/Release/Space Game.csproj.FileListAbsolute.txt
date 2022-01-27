@@ -1,0 +1,47 @@
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe.config
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Interop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\AxInterop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csproj.ResolveComReference.cache
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmMenu.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.Properties.Resources.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmSpace.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csproj.GenerateResource.Cache
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.pdb
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Interop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\AxInterop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.exe
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.pdb
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csprojResolveAssemblyReference.cache
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe.config
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Interop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\AxInterop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csproj.ResolveComReference.cache
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.exe
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.pdb
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.pdb
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Interop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\AxInterop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmMenu.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.Properties.Resources.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmSpace.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\GenerateResource.read.1.tlog
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\GenerateResource.write.1.tlog
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\GenerateResource.read.4.tlog
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe.config
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Interop.WMPLib.dll
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\AxInterop.WMPLib.dll
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csproj.ResolveComReference.cache
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.exe
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.pdb
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.exe
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Space Game.pdb
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\Interop.WMPLib.dll
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Release\AxInterop.WMPLib.dll
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csprojResolveAssemblyReference.cache
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmMenu.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.Properties.Resources.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space_Game.frmSpace.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Release\Space Game.csproj.GenerateResource.Cache

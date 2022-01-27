@@ -1,0 +1,13 @@
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C_Sharp_Methods.frmMethods.resources
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C_Sharp_Methods.Properties.Resources.resources
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\bin\Debug\C Sharp Methods.exe
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\bin\Debug\C Sharp Methods.pdb
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C Sharp Methods.exe
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C Sharp Methods.pdb
+F:\Programming\Semester 2\Week 2\C Sharp Methods\C Sharp Methods\bin\Debug\C Sharp Methods.exe.config
+I:\Studio Practice\Studio Project\C Sharp Methods\C Sharp Methods\bin\Debug\C Sharp Methods.exe.config
+I:\Studio Practice\Studio Project\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C Sharp Methods.exe
+I:\Studio Practice\Studio Project\C Sharp Methods\C Sharp Methods\obj\x86\Debug\C Sharp Methods.pdb

@@ -1,0 +1,136 @@
+I:\Studio Practice\Studio Project\Space Game\C Sharp Methods\bin\Debug\C Sharp Methods.exe.config
+I:\Studio Practice\Studio Project\Space Game\C Sharp Methods\obj\x86\Debug\C Sharp Methods.exe
+I:\Studio Practice\Studio Project\Space Game\C Sharp Methods\obj\x86\Debug\C Sharp Methods.pdb
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.frmMenu.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.GenerateResource.Cache
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Interop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\AxInterop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.ResolveComReference.cache
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Interop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\AxInterop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
+E:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
+E:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+E:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Interop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\AxInterop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.ResolveComReference.cache
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.frmMenu.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Interop.WMPLib.dll
+F:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\AxInterop.WMPLib.dll
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+I:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+F:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.PlanetCombat.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Options.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.PlanetCombat.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.GameOver.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.MainMenu.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.WinScreen.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.ClassDescription.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+J:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+J:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csprojResolveAssemblyReference.cache
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.ClassDescription.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.CustomMessageBox.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet7.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet6.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet5.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.GameOver.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.MainMenu.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Options.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet2.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet3.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet4.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.PlanetCombat.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.StatIncreases.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.WinScreen.resources
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.GenerateResource.Cache
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+J:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.CustomMessageBox.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet7.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet6.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet5.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet2.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet3.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet4.resources
+E:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.StatIncreases.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.ClassDescription.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.CustomMessageBox.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet7.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet6.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet5.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.GameOver.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.MainMenu.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Options.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet2.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet3.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet4.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.PlanetCombat.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.StatIncreases.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.WinScreen.resources
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.GenerateResource.Cache
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+H:\Studio Practice\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+H:\Studio Practice\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe.config
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\bin\Debug\Space Game.exe
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\bin\Debug\Space Game.pdb
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.ClassDescription.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.CustomMessageBox.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet6.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet5.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.GameOver.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.MainMenu.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Options.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet1.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet2.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet3.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Planet4.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.PlanetCombat.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Properties.Resources.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.Space1.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.SpaceStart.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.StatIncreases.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space_Game.WinScreen.resources
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.csproj.GenerateResource.Cache
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.exe
+D:\Studio Project Backup\Studio Project\Space Game\Space Game\obj\x86\Debug\Space Game.pdb
